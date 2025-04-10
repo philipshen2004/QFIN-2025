@@ -138,7 +138,7 @@ class TradingAlgorithm:
 
         order_data['UEC'] = self.calculate_momentum(self.UECMid, 50)
         order_data['SOBER'] = self.sell(self.SoberMid, 10)
-        order_data['FAWA'] = self.pairtradeShift(self.SMIFMid, 70)
+        order_data['FAWA'] = self.pairtradeShift(self.SMIFMid, 70) #make changes here
 
         return order_data
 
